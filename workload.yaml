@@ -3,7 +3,7 @@ kind: Workload
 metadata:
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    apps.kubernetes.io/part-of: tdemo1native
+    app.kubernetes.io/part-of: tdemo1native
   name: tdemo1native
   namespace: default
 spec:
