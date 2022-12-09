@@ -14,7 +14,7 @@ spec:
     - name: BP_MAVEN_BUILD_ARGUMENTS
       value: "-Pnative spring-boot:build-image"
     - name: BP_NATIVE_IMAGE
-      value: true 
+      value: "true" 
  #     value: "-Pnative spring-boot:build-image -Dmanagement.endpoint.health.probes.add-additional-paths=false --no-transfer-progress"
   source:
     git:
