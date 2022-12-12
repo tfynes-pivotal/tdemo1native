@@ -10,7 +10,7 @@ spec:
   build:
     env:
     - name: BP_JVM_VERSION
-      value: "17" 
+      value: "11" 
     - name: BP_MAVEN_BUILD_ARGUMENTS
       value: "-Pnative native:compile -DskipTests"
     - name: BP_NATIVE_IMAGE
