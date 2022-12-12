@@ -12,7 +12,7 @@ spec:
     - name: BP_JVM_VERSION
       value: "17" 
     - name: BP_MAVEN_BUILD_ARGUMENTS
-      value: "-Pnative spring-boot:build-image -DskipTests"
+      value: "-Pnative native:compile -DskipTests"
     - name: BP_NATIVE_IMAGE
       value: "true" 
  #     value: "-Pnative spring-boot:build-image -Dmanagement.endpoint.health.probes.add-additional-paths=false --no-transfer-progress"
